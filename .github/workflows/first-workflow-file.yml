@@ -1,8 +1,9 @@
 name: sample github action workflow
 on: [push]
 jobs:
-  build:
-    runs-on: ubuntu-latest
-  steps:
-    name: testing
-    run: echo welcome to github action workflow
+  example-job:
+      runs-on: ubuntu-latest
+      steps:
+          - name: Echo a String
+            run: echo "Welcome to github action"
+
