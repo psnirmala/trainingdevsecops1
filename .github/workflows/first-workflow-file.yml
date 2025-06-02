@@ -5,8 +5,13 @@ jobs:
       runs-on: ubuntu-latest
       steps:
           - name: Echo a String
-            run: |
-                echo "Welcome to github action---with credentials"
-                echo "This is second line"
-                echo "This is third line"
+            run: echo "this is simple message"
 
+  next-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo multi line string
+        run: |
+          echo "This is first line"
+          echo "This is second line"
+          echo "This is third line"
