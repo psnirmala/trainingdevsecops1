@@ -4,4 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      name: testing
       run: echo welcome to github action workflow
