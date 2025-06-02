@@ -1,0 +1,8 @@
+name: sample github action workflow
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      name: print a simple message
+      run: echo welcome to github action workflow
