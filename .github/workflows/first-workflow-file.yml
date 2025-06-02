@@ -5,5 +5,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
           - name: Echo a String
-            run: echo "Welcome to github action"
+            run: echo "Welcome to github action---with credentials"
 
